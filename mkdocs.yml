@@ -1,0 +1,63 @@
+site_name: YOLO by Dior Music Pop Up Event
+site_description: A guide to the interactive keepsake card experience for the LOSTCONTROL pop-up event.
+site_url: https://jacksen-ng.github.io/dior-fans-interact-docs/
+copyright: Interactive keepsake card experience for the LOSTCONTROL pop-up event, 16 to 18 October 2026.
+
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    logo: material/card-text-outline
+  favicon: images/logo.png
+  font:
+    text: Noto Sans
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.footer
+    - navigation.top
+    - content.tooltips
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - How It Works: how-it-works.md
+  - Pages:
+      - Overview: pages/index.md
+      - 1. Participant Page: pages/participant.md
+      - 2. Big Screen: pages/big-screen.md
+      - 3. Staff Console: pages/console.md
+  - Where It Runs: where-it-runs.md
+  - Privacy and Data: privacy.md
+  - Event Day Guide: event-day.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: false
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
