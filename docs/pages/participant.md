@@ -1,7 +1,7 @@
 # 1. Participant Page
 
 - **Who uses it:** guests, on their own phones
-- **Address:** [dior-fans-interact.vercel.app](https://dior-fans-interact.vercel.app) (also `/participate`)
+- **Address:** [dior-fans-interact.vercel.app](https://dior-fans-interact.vercel.app)
 - **How guests get there:** by scanning the QR code printed at the venue
 
 The Participant Page walks each guest through three short steps: **fill in**, **design**, and **reveal**. Everything happens on one page; there is no sign-up, no app to install and no email address required.

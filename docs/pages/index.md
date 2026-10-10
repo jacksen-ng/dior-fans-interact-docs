@@ -8,9 +8,6 @@ The experience has **3 pages** in total. Each page has its own purpose and its o
 | 2 | [Big Screen](big-screen.md) | Everyone at the venue | The large display at the venue | [dior-fans-interact.vercel.app/screen](https://dior-fans-interact.vercel.app/screen) |
 | 3 | [Staff Console](console.md) | Event staff | A staff computer or phone | [dior-fans-interact.vercel.app/admin](https://dior-fans-interact.vercel.app/admin) |
 
-!!! note "One page, two addresses"
-    The Participant Page can also be opened at `/participate`. Both addresses show exactly the same page.
-
 ## Language and look
 
 - The pages themselves are in Chinese, matching the event. This guide gives an English translation of every label.
